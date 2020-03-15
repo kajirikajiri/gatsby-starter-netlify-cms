@@ -23,7 +23,7 @@ export default class BlogIndexPage extends React.Component {
             >
               Latest Stories
             </h1>
-            <div className="content">
+            <div className="content" style={{minHeight: '80vh'}}>
               <BlogRoll />
             </div>
           </div>
