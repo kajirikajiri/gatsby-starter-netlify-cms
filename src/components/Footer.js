@@ -6,6 +6,7 @@ import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
 import vimeo from '../img/social/vimeo.svg'
+import qiita from '../img/social/qiita.png'
 
 const Footer = class extends React.Component {
   render() {
@@ -27,21 +28,6 @@ const Footer = class extends React.Component {
                     <li>
                       <Link to="/" className="navbar-item">
                         Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
                       </Link>
                     </li>
                     <li>
@@ -100,6 +86,13 @@ const Footer = class extends React.Component {
                   <img
                     src={vimeo}
                     alt="Vimeo"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="qiita" href="https://qiita.com/kajirikajiri">
+                  <img
+                    src={qiita}
+                    alt="Qiita"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
